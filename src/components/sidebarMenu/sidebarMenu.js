@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import cx from 'classnames';
 
-import { PERSONE } from '../../mockData/mockData';
+import { PERSON } from '../../mockData/person';
 import SocialNetworks from './socialNetworks';
 import Avatar from './avatar';
 import Navigation from './navigation';
+import HardSkills from './hardSkills';
 
 export default function SidebarMenu() {
   const [isOpen, setOpen] = useState(false);
@@ -32,13 +33,13 @@ export default function SidebarMenu() {
         ></i>
         <div className='container'>
           <Avatar />
-
           <Navigation />
+          <HardSkills />
 
           <SocialNetworks />
 
           <div className='copyright-text'>
-            <p>Copyright 2021 {PERSONE.name}</p>
+            <p>Copyright 2021 {PERSON.name}</p>
           </div>
         </div>
       </div>

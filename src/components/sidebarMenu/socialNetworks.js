@@ -1,5 +1,5 @@
 import React from 'react';
-import { SOCIAL_NETWORKS } from '../../mockData/mockData';
+import { SOCIAL_NETWORKS } from '../../mockData/socialNetworks';
 
 export default function SocialNetworks() {
   return (

@@ -1,20 +1,17 @@
 import React from 'react';
+import PortfolioItem from './portfolioItem';
 
-import PortfolioItem from './portfolioItem.js';
-
-import { PORTFOLIO } from '../../mockData/mockData';
+import { PORTFOLIO } from '../../mockData/portfolio';
+import { PORTFOLIO_SECTION } from '../../mockData/sectionHeadings';
 
 export default function Portfolio() {
   return (
     <section className='section my-work' data-section='section3'>
       <div className='container'>
         <div className='section-heading'>
-          <h2>My Works</h2>
+          <h2>{PORTFOLIO_SECTION.title}</h2>
           <div className='line-dec'></div>
-          <span>
-            Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
-            amet. Duis ac elit vulputate, lobortis arcu quis, vehicula mauris.
-          </span>
+          <span>{PORTFOLIO_SECTION.description}</span>
         </div>
         <div className='row'>
           <div className='isotope-wrapper'>
@@ -26,6 +23,7 @@ export default function Portfolio() {
                   description={item.description}
                   skills={item.skills}
                   link={item.link}
+                  id={item.id}
                   key={item.id}
                 />
               ))}

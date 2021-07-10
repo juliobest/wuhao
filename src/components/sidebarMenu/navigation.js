@@ -1,16 +1,47 @@
 import React from 'react';
+import cx from 'classnames';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
 
-export default function Navigation() {
+function Navigation(props) {
+  const {
+    location: { pathname },
+  } = props;
+
+  const LINKS = [
+    {
+      id: 1,
+      title: 'About Me',
+      pathname: '/',
+    },
+    {
+      id: 2,
+      title: 'Portfolio Projects',
+      pathname: '/portfolio',
+    },
+    {
+      id: 3,
+      title: 'What my clients say',
+      pathname: '/testimonials',
+    },
+  ];
+
   return (
     <nav className='main-nav' role='navigation'>
       <ul className='main-menu'>
-        <li>
-          <a href='#section3'>Portfolio Projects</a>
-        </li>
-        <li>
-          <a href='#section2'>What my clients say</a>
-        </li>
+        {LINKS.map((item) => (
+          <li
+            key={item.id}
+            className={cx([
+              item.pathname === pathname && 'main-nav-opened-link',
+            ])}
+          >
+            <Link to={item.pathname}>{item.title}</Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
 }
+
+export default withRouter(Navigation);
