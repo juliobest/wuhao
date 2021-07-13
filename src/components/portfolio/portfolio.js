@@ -21,7 +21,7 @@ export default function Portfolio() {
                   img={item.img}
                   title={item.title}
                   description={item.description}
-                  skills={item.skills}
+                  projectTechnologies={item.projectTechnologies}
                   link={item.link}
                   id={item.id}
                   key={item.id}

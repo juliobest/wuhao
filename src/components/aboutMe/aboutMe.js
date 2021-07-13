@@ -5,6 +5,7 @@ import { EMPLOYMENT_HISTORY } from '../../mockData/employmentHistory';
 import { ABOUT_ME_SECTION } from '../../mockData/sectionHeadings';
 import EducationItem from './educationItem';
 import EmploymentItem from './employmentItem';
+import ContactInfo from './contactInfo';
 
 export default function AboutMe() {
   return (
@@ -12,7 +13,9 @@ export default function AboutMe() {
       <div className='container'>
         <div className='section-heading'>
           <h2>{ABOUT_ME_SECTION.title}</h2>
-          <div className='line-dec'></div>
+
+          <ContactInfo />
+
           <span>{ABOUT_ME_SECTION.description}</span>
         </div>
 

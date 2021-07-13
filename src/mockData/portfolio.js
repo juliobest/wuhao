@@ -5,7 +5,23 @@ export const PORTFOLIO = [
     title: 'Astro',
     description:
       'Astro framework (and you are), but the output is a zero-JavaScript static site. Astro is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['React', 'Redux', 'Node JS', 'PostgreSQL', 'TypeScript'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['React', 'Redux', 'TypeScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Node JS'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['PostgreSQL'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
@@ -19,7 +35,23 @@ export const PORTFOLIO = [
     title: 'Trueman',
     description:
       'Trueman is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['React', 'Redux', 'Laravel', 'PHP', 'TypeScript', 'MySQL'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['React', 'Redux', 'TypeScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Laravel', 'PHP'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['MySQL'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
@@ -33,7 +65,23 @@ export const PORTFOLIO = [
     title: 'Experience',
     description:
       'Experience is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['Angular', 'Node JS', 'JavaScript', 'MySQL'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['Angular', 'JavaScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Node JS'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['MySQL'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
@@ -47,7 +95,23 @@ export const PORTFOLIO = [
     title: 'Satechi',
     description:
       'Satechi is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['Vue', 'TypeScript', 'Laravel', 'PostgreSQL', 'PHP'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['Vue', 'TypeScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Laravel', 'PHP'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['PostgreSQL'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
@@ -61,7 +125,23 @@ export const PORTFOLIO = [
     title: 'Logitech',
     description:
       'Logitech is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['Angular', 'TypeScript', 'Laravel', 'PHP', 'PostgreSQL'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['Angular', 'TypeScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Laravel', 'PHP'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['PostgreSQL'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
@@ -75,7 +155,23 @@ export const PORTFOLIO = [
     title: 'Soborna',
     description:
       'Soborna is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    skills: ['React', 'Redux', 'Node JS', 'PostgreSQL', 'TypeScript'],
+    projectTechnologies: [
+      {
+        id: 1,
+        section: 'Front-End',
+        skillsList: ['React', 'Redux', 'TypeScript'],
+      },
+      {
+        id: 1,
+        section: 'Back-End',
+        skillsList: ['Python'],
+      },
+      {
+        id: 1,
+        section: 'Database',
+        skillsList: ['Firebase'],
+      },
+    ],
     link: 'https://reactjs.org/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',

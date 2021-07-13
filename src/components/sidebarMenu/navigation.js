@@ -21,7 +21,12 @@ function Navigation(props) {
     },
     {
       id: 3,
-      title: 'What my clients say',
+      title: 'My Skills',
+      pathname: '/skills',
+    },
+    {
+      id: 4,
+      title: 'What my Clients say',
       pathname: '/testimonials',
     },
   ];

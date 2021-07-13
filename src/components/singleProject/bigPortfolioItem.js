@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { SKILLS } from '../../mockData/skills';
 
 export default function BigPortfolioItem(props) {
   const {
@@ -8,7 +9,7 @@ export default function BigPortfolioItem(props) {
       img,
       title,
       description,
-      skills,
+      projectTechnologies,
       link,
       testimonial,
       clientName,
@@ -26,10 +27,17 @@ export default function BigPortfolioItem(props) {
       >
         Back to portfolio
       </Link>
+      <Link
+        to='/portfolio'
+        className='PortfolioItem-readMore PortfolioItem-readMore-arrow'
+      >
+        <img src='/assets/images/left-arrow.svg' alt='arrow' />
+      </Link>
 
       <div className='bigPortfolioItem-innerWrap'>
         <div className='bigPortfolioItem-content'>
           <div className='bigPortfolioItem-description'>{description}</div>
+
           <div className='bigPortfolioItem-link-section'>
             <p className='bigPortfolioItem-heading'>Link to site:</p>
             <a
@@ -41,23 +49,36 @@ export default function BigPortfolioItem(props) {
               {link}
             </a>
           </div>
-          <div className='bigPortfolioItem-skills-section'>
-            <p className='bigPortfolioItem-heading'>Used skills:</p>
-            <ol>
-              {skills &&
-                skills.map((item, index) => (
-                  <li type='disc' key={index}>
-                    {item}
-                  </li>
-                ))}
-            </ol>
-          </div>
         </div>
         <div className='bigPortfolioItem-img'>
           <img src={img} alt='sq-sample26' />
         </div>
       </div>
-
+      <div className='bigPortfolioItem-skills-section'>
+        <p className='bigPortfolioItem-heading'>Used skills:</p>
+        <ul className='bigPortfolioItem-skills-wrap'>
+          {projectTechnologies &&
+            projectTechnologies.map((projectTechnologiesItem) => {
+              const technologiesSection = SKILLS.find(
+                (skillsItem) =>
+                  skillsItem.section === projectTechnologiesItem.section,
+              );
+              return projectTechnologiesItem.skillsList.map(
+                (singleTechnology) => {
+                  const skill = technologiesSection.skillsList.find(
+                    (itemIcon) => itemIcon.skill === singleTechnology,
+                  );
+                  return (
+                    <li className='skillCard-skill' key={skill.id}>
+                      <img src={skill.icon} alt={skill.skill} />
+                      <div className='skillCard-skill-text'>{skill.skill}</div>
+                    </li>
+                  );
+                },
+              );
+            })}
+        </ul>
+      </div>
       <div className='bigPortfolioItem-testimonial'>
         <p className='bigPortfolioItem-testimonial-title'>
           Feedback From Client

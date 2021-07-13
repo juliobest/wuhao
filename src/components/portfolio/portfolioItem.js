@@ -2,11 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
 
-import { HARD_SKILLS } from '../../mockData/skills';
+import { SKILLS } from '../../mockData/skills';
 
 function PortfolioItem(props) {
-  const { img, title, skills, description, id, history } = props;
-
+  const { img, title, projectTechnologies, description, id, history } = props;
   const sliceDescription = (text) => text.slice(0, 120);
   const handleClick = (id) => history.push(`portfolio/${id}`);
 
@@ -21,17 +20,25 @@ function PortfolioItem(props) {
             className='projectCard-image-block-img'
           />
           <ul className='projectCard-image-block-skills-list-wrap'>
-            {skills.map((item) => {
-              const skill = HARD_SKILLS.find(
-                (itemIcon) => itemIcon.skill === item,
+            {projectTechnologies.map((projectTechnologiesItem) => {
+              const technologiesSection = SKILLS.find(
+                (skillsItem) =>
+                  skillsItem.section === projectTechnologiesItem.section,
               );
-              return (
-                <li
-                  className='projectCard-image-block-skills-list'
-                  key={skill.id}
-                >
-                  <img src={skill && skill.icon} alt='skill-icon' />
-                </li>
+              return projectTechnologiesItem.skillsList.map(
+                (singleTechnology) => {
+                  const skill = technologiesSection.skillsList.find(
+                    (itemIcon) => itemIcon.skill === singleTechnology,
+                  );
+                  return (
+                    <li
+                      className='projectCard-image-block-skills-list'
+                      key={skill.id}
+                    >
+                      <img src={skill && skill.icon} alt='skill-icon' />
+                    </li>
+                  );
+                },
               );
             })}
           </ul>
@@ -60,6 +67,6 @@ PortfolioItem.propTypes = {
   img: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
-  skills: PropTypes.array,
+  projectTechnologies: PropTypes.array,
   id: PropTypes.string,
 };
