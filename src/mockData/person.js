@@ -1,5 +1,5 @@
 export const PERSON = {
-  name: 'John Doe',
+  name: 'John Yei',
   position: 'Full Stack Developer',
 };
 
@@ -7,13 +7,13 @@ export const CONTACT_INFORMATION = [
   {
     id: 1,
     title: 'Email Address',
-    content: 'john.Doe@gmail.com',
+    content: 'johnyei.business@gmail.com',
     icon: '/assets/images/contact-info-icons/contact-email.svg',
   },
   {
     id: 3,
     title: 'Phone Number',
-    content: '+1 617-253-1000',
+    content: '+1 330-871-7171',
     icon: '/assets/images/contact-info-icons/contact-phone-call.svg',
   },
   {

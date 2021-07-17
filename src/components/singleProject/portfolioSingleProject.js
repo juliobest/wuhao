@@ -16,12 +16,6 @@ export default function PortfolioSingleProject(props) {
     <section className='section my-work' data-section='section3'>
       <div className='container'>
         <div className='section-heading'>
-          <h2>My Works</h2>
-          <div className='line-dec'></div>
-          <span>
-            Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
-            amet. Duis ac elit vulputate, lobortis arcu quis, vehicula mauris.
-          </span>
         </div>
         <div className='row'>
           <div className='isotope-wrapper'>

@@ -1,10 +1,10 @@
 export const PORTFOLIO = [
   {
-    id: 'astro',
-    img: '/assets/images/portfolio/portfolio-01.jpg',
-    title: 'Astro',
+    id: 'SecuretheBag',
+    img: '/assets/images/portfolio/securethebag.png',
+    title: 'SecuretheBag',
     description:
-      'Astro framework (and you are), but the output is a zero-JavaScript static site. Astro is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+      'SecuretheBag is a financial anaytics platform where users are able to store their own incomes and analyse their incomes daily/weekly/monthly/yearly and it also supports different currencies too',
     projectTechnologies: [
       {
         id: 1,
@@ -19,22 +19,22 @@ export const PORTFOLIO = [
       {
         id: 1,
         section: 'Database',
-        skillsList: ['PostgreSQL'],
+        skillsList: ['MySQL'],
       },
     ],
-    link: 'https://reactjs.org/',
-    clientName: 'Paul Trueman',
-    clientPosition: 'CEO Astro Production, Miami, FL',
+    link: 'https://securethebag.io/',
+    clientName: 'Erin',
+    clientPosition: 'Owner of SecuretheBag',
     clientImg: '/assets/images/author-image.jpg',
     testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer. Astro is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+      'Working with John was great. This project has survived since I met John. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and suggested best technical stacks to save the project. Highly recommend him!',
   },
   {
-    id: 'trueman',
-    img: '/assets/images/portfolio/portfolio-02.jpg',
-    title: 'Trueman',
+    id: 'LawnProSoftware',
+    img: '/assets/images/portfolio/lawnprosoftware.png',
+    title: 'LawnProSoftware',
     description:
-      'Trueman is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+      'LawnProSoftware is a SAAS platfform. Lawn care business software for billing, scheduling, estimating, and more. Works on Mac, Pc, tablets, iPad, iPhone, and Android.',
     projectTechnologies: [
       {
         id: 1,
@@ -52,24 +52,24 @@ export const PORTFOLIO = [
         skillsList: ['MySQL'],
       },
     ],
-    link: 'https://reactjs.org/',
-    clientName: 'Paul Trueman',
-    clientPosition: 'CEO Astro Production, Miami, FL',
+    link: 'https://www.lawnprosoftware.com/',
+    clientName: 'Patrick',
+    clientPosition: 'CEO at LawnProSoftware',
     clientImg: '/assets/images/author-image.jpg',
     testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+      'Fantastic! I have been working with John over the past 4 years and finally we reached to the goal!',
   },
   {
-    id: 'experience',
-    img: '/assets/images/portfolio/portfolio-03.jpg',
-    title: 'Experience',
+    id: 'Peymynt',
+    img: '/assets/images/portfolio/peymynt.png',
+    title: 'Peymynt',
     description:
-      'Experience is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+      'Peymynt is a Financial Software Solution for Entrepreneurs',
     projectTechnologies: [
       {
         id: 1,
         section: 'Front-End',
-        skillsList: ['Angular', 'JavaScript'],
+        skillsList: ['React', 'JavaScript'],
       },
       {
         id: 1,
@@ -82,101 +82,101 @@ export const PORTFOLIO = [
         skillsList: ['MySQL'],
       },
     ],
-    link: 'https://reactjs.org/',
+    link: 'https://dev.peymynt.com/',
     clientName: 'Paul Trueman',
     clientPosition: 'CEO Astro Production, Miami, FL',
     clientImg: '/assets/images/author-image.jpg',
     testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+      'Working with John has been a pleasure. Better yet - I alerted them a critical issues that was annoying me for years. Suprisingly the issue was fixed the next morning. I couldn`t ask for better support. Thank you John!',
   },
-  {
-    id: 'satechi',
-    img: '/assets/images/portfolio/portfolio-04.jpg',
-    title: 'Satechi',
-    description:
-      'Satechi is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    projectTechnologies: [
-      {
-        id: 1,
-        section: 'Front-End',
-        skillsList: ['Vue', 'TypeScript'],
-      },
-      {
-        id: 1,
-        section: 'Back-End',
-        skillsList: ['Laravel', 'PHP'],
-      },
-      {
-        id: 1,
-        section: 'Database',
-        skillsList: ['PostgreSQL'],
-      },
-    ],
-    link: 'https://reactjs.org/',
-    clientName: 'Paul Trueman',
-    clientPosition: 'CEO Astro Production, Miami, FL',
-    clientImg: '/assets/images/author-image.jpg',
-    testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
-  },
-  {
-    id: 'logitech',
-    img: '/assets/images/portfolio/portfolio-05.jpg',
-    title: 'Logitech',
-    description:
-      'Logitech is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    projectTechnologies: [
-      {
-        id: 1,
-        section: 'Front-End',
-        skillsList: ['Angular', 'TypeScript'],
-      },
-      {
-        id: 1,
-        section: 'Back-End',
-        skillsList: ['Laravel', 'PHP'],
-      },
-      {
-        id: 1,
-        section: 'Database',
-        skillsList: ['PostgreSQL'],
-      },
-    ],
-    link: 'https://reactjs.org/',
-    clientName: 'Paul Trueman',
-    clientPosition: 'CEO Astro Production, Miami, FL',
-    clientImg: '/assets/images/author-image.jpg',
-    testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
-  },
-  {
-    id: 'soborna',
-    img: '/assets/images/portfolio/portfolio-06.jpg',
-    title: 'Soborna',
-    description:
-      'Soborna is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
-    projectTechnologies: [
-      {
-        id: 1,
-        section: 'Front-End',
-        skillsList: ['React', 'Redux', 'TypeScript'],
-      },
-      {
-        id: 1,
-        section: 'Back-End',
-        skillsList: ['Python'],
-      },
-      {
-        id: 1,
-        section: 'Database',
-        skillsList: ['Firebase'],
-      },
-    ],
-    link: 'https://reactjs.org/',
-    clientName: 'Paul Trueman',
-    clientPosition: 'CEO Astro Production, Miami, FL',
-    clientImg: '/assets/images/author-image.jpg',
-    testimonial:
-      'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
-  },
+  // {
+  //   id: 'satechi',
+  //   img: '/assets/images/portfolio/portfolio-04.jpg',
+  //   title: 'Satechi',
+  //   description:
+  //     'Satechi is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+  //   projectTechnologies: [
+  //     {
+  //       id: 1,
+  //       section: 'Front-End',
+  //       skillsList: ['Vue', 'TypeScript'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Back-End',
+  //       skillsList: ['Laravel', 'PHP'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Database',
+  //       skillsList: ['PostgreSQL'],
+  //     },
+  //   ],
+  //   link: 'https://reactjs.org/',
+  //   clientName: 'Paul Trueman',
+  //   clientPosition: 'CEO Astro Production, Miami, FL',
+  //   clientImg: '/assets/images/author-image.jpg',
+  //   testimonial:
+  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  // },
+  // {
+  //   id: 'logitech',
+  //   img: '/assets/images/portfolio/portfolio-05.jpg',
+  //   title: 'Logitech',
+  //   description:
+  //     'Logitech is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+  //   projectTechnologies: [
+  //     {
+  //       id: 1,
+  //       section: 'Front-End',
+  //       skillsList: ['Angular', 'TypeScript'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Back-End',
+  //       skillsList: ['Laravel', 'PHP'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Database',
+  //       skillsList: ['PostgreSQL'],
+  //     },
+  //   ],
+  //   link: 'https://reactjs.org/',
+  //   clientName: 'Paul Trueman',
+  //   clientPosition: 'CEO Astro Production, Miami, FL',
+  //   clientImg: '/assets/images/author-image.jpg',
+  //   testimonial:
+  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  // },
+  // {
+  //   id: 'soborna',
+  //   img: '/assets/images/portfolio/portfolio-06.jpg',
+  //   title: 'Soborna',
+  //   description:
+  //     'Soborna is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. ',
+  //   projectTechnologies: [
+  //     {
+  //       id: 1,
+  //       section: 'Front-End',
+  //       skillsList: ['React', 'Redux', 'TypeScript'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Back-End',
+  //       skillsList: ['Python'],
+  //     },
+  //     {
+  //       id: 1,
+  //       section: 'Database',
+  //       skillsList: ['Firebase'],
+  //     },
+  //   ],
+  //   link: 'https://reactjs.org/',
+  //   clientName: 'Paul Trueman',
+  //   clientPosition: 'CEO Astro Production, Miami, FL',
+  //   clientImg: '/assets/images/author-image.jpg',
+  //   testimonial:
+  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  // },
 ];
