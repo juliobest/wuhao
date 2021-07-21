@@ -29,11 +29,11 @@ function Navigation(props) {
     //   title: 'What my Clients say',
     //   pathname: '/testimonials',
     // },
-    {
-      id: 5,
-      title: 'My Resume',
-      pathname: '/resume',
-    },
+    // {
+    //   id: 5,
+    //   title: 'My Resume',
+    //   pathname: '/resume',
+    // },
   ];
 
   return (
