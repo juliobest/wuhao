@@ -9,7 +9,9 @@ export default function ContactInfo() {
           <div className='contactInfo-Item-imgWrap'>
             <img src={item.icon} alt={item.title} />
           </div>
-          <div>{item.content}</div>
+          <a href={item.id===1?`mailto:${item.content}`:'#'}>
+            {item.content}
+          </a>
         </div>
       ))}
     </div>

@@ -11,7 +11,7 @@ export default function Avatar() {
       </div>
       <div className='author-content'>
         <h4>{PERSON.name}</h4>
-        <span>{PERSON.position}</span>
+        <a href="/resume.pdf" target="_blank" className="text-warning"> Download Resume </a>
       </div>
     </>
   );

@@ -27,7 +27,7 @@ export const PORTFOLIO = [
     clientPosition: 'Owner of SecuretheBag',
     clientImg: '/assets/images/client3.jpg',
     testimonial:
-      'Working with John was great. This project has survived since I met John. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and suggested best technical stacks to save the project. Highly recommend him!',
+      'Working with John was great. This project has survived since I met John. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and always suggested the best solutions to save the project. Highly recommend him!',
   },
   {
     id: 'LawnProSoftware',

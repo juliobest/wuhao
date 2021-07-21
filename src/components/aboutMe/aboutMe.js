@@ -17,6 +17,7 @@ export default function AboutMe() {
           <ContactInfo />
 
           <span>{ABOUT_ME_SECTION.description}</span>
+          <a href="/resume.pdf" target="_blank"> Download Resume </a>
         </div>
 
         <div className='right-image-post'>
