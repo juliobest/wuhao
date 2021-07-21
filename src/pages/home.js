@@ -1,6 +1,5 @@
 import React from 'react';
 import Portfolio from '../components/portfolio/portfolio';
-import Resume from '../components/resume/resume';
 import Testimonials from '../components/testimonials/testimonials';
 import SidebarMenu from '../components/sidebarMenu/sidebarMenu';
 import AboutMe from '../components/aboutMe/aboutMe';
@@ -19,8 +18,6 @@ export default function Home() {
         <Route path='/skills' component={MySkills} />
 
         <Route path='/portfolio' exact component={Portfolio} />
-
-        <Route path='/resume' exact component={Resume} />
 
         <Route
           path='/portfolio/:id'
