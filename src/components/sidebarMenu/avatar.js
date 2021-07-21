@@ -6,7 +6,7 @@ export default function Avatar() {
     <>
       <div className='image'>
         <div>
-          <img src='/assets/images/author-image.jpg' alt='' />
+          <img src='/assets/images/my.png' alt='' />
         </div>
       </div>
       <div className='author-content'>

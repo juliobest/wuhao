@@ -25,7 +25,7 @@ export const PORTFOLIO = [
     link: 'https://securethebag.io/',
     clientName: 'Erin',
     clientPosition: 'Owner of SecuretheBag',
-    clientImg: '/assets/images/author-image.jpg',
+    clientImg: '/assets/images/client3.jpg',
     testimonial:
       'Working with John was great. This project has survived since I met John. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and suggested best technical stacks to save the project. Highly recommend him!',
   },
@@ -55,7 +55,7 @@ export const PORTFOLIO = [
     link: 'https://www.lawnprosoftware.com/',
     clientName: 'Patrick',
     clientPosition: 'CEO at LawnProSoftware',
-    clientImg: '/assets/images/author-image.jpg',
+    clientImg: '/assets/images/client2.jpg',
     testimonial:
       'Fantastic! I have been working with John over the past 4 years and finally we reached to the goal!',
   },
@@ -83,9 +83,9 @@ export const PORTFOLIO = [
       },
     ],
     link: 'https://dev.peymynt.com/',
-    clientName: 'Paul Trueman',
+    clientName: 'Paul',
     clientPosition: 'CEO Astro Production, Miami, FL',
-    clientImg: '/assets/images/author-image.jpg',
+    clientImg: '/assets/images/client1.jpg',
     testimonial:
       'Working with John has been a pleasure. Better yet - I alerted them a critical issues that was annoying me for years. Suprisingly the issue was fixed the next morning. I couldn`t ask for better support. Thank you John!',
   },

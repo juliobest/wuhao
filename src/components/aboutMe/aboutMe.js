@@ -22,23 +22,7 @@ export default function AboutMe() {
         <div className='right-image-post'>
           <div className='row'>
             <div className='col-md-12'>
-              <h4>Education</h4>
-              {EDUCATION.map((item) => (
-                <EducationItem
-                  key={item.id}
-                  title={item.title}
-                  period={item.period}
-                  description={item.description}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className='right-image-post'>
-          <div className='row'>
-            <div className='col-md-12'>
-              <h4>Employment History</h4>
+              <h4 className='text-primary'>Employment History</h4>
               {EMPLOYMENT_HISTORY.map((item) => (
                 <EmploymentItem
                   key={item.id}
@@ -52,6 +36,23 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
+
+        <div className='right-image-post'>
+          <div className='row'>
+            <div className='col-md-12'>
+              <h4 className='text-primary'>Education</h4>
+              {EDUCATION.map((item) => (
+                <EducationItem
+                  key={item.id}
+                  title={item.title}
+                  period={item.period}
+                  description={item.description}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

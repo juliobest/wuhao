@@ -1,11 +1,11 @@
 export const EDUCATION = [
-  {
-    id: 1,
-    title: 'University of Ohio',
-    period: '2013-2016',
-    description:
-      `Studied business & accounting and software design & architecture`,
-  },
+  // {
+  //   id: 1,
+  //   title: 'University of Ohio',
+  //   period: '2013-2016',
+  //   description:
+  //     `Studied business & accounting and software design & architecture`,
+  // },
   {
     id: 2,
     title: 'Nagoya Institute of Technology',

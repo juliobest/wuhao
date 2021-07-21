@@ -24,11 +24,11 @@ function Navigation(props) {
       title: 'My Skills',
       pathname: '/skills',
     },
-    {
-      id: 4,
-      title: 'What my Clients say',
-      pathname: '/testimonials',
-    },
+    // {
+    //   id: 4,
+    //   title: 'What my Clients say',
+    //   pathname: '/testimonials',
+    // },
   ];
 
   return (

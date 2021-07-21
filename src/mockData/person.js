@@ -16,10 +16,10 @@ export const CONTACT_INFORMATION = [
     content: '+1 330-871-7171',
     icon: '/assets/images/contact-info-icons/contact-phone-call.svg',
   },
-  {
-    id: 2,
-    title: 'Address',
-    content: '77 Massachusetts Ave, Cambridge, MA 02139, USA',
-    icon: '/assets/images/contact-info-icons/contact-pin.svg',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Address',
+  //   content: 'Farm to Market Road 1770, Winters, TX 79567',
+  //   icon: '/assets/images/contact-info-icons/contact-pin.svg',
+  // },
 ];
