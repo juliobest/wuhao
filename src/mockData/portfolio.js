@@ -27,7 +27,7 @@ export const PORTFOLIO = [
     clientPosition: 'Owner of SecuretheBag',
     clientImg: '/assets/images/client3.jpg',
     testimonial:
-      'Working with John was great. This project has survived since I met John. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and always suggested the best solutions to save the project. Highly recommend him!',
+      'Working with Wu was great. This project has survived since I met Wu. He really saved this project from its death. He was also very kind and cool. He knows exactly what I wanted and always suggested the best solutions to save the project. Highly recommend him!',
   },
   {
     id: 'LawnProSoftware',
@@ -57,7 +57,7 @@ export const PORTFOLIO = [
     clientPosition: 'CEO at LawnProSoftware',
     clientImg: '/assets/images/client2.jpg',
     testimonial:
-      'Fantastic! I have been working with John over the past 4 years and finally we reached to the goal!',
+      'Fantastic! I have been working with Wu over the past 4 years and finally we reached to the goal!',
   },
   {
     id: 'Peymynt',
@@ -87,7 +87,7 @@ export const PORTFOLIO = [
     clientPosition: 'CEO Astro Production, Miami, FL',
     clientImg: '/assets/images/client1.jpg',
     testimonial:
-      'Working with John has been a pleasure. Better yet - I alerted them a critical issues that was annoying me for years. Suprisingly the issue was fixed the next morning. I couldn`t ask for better support. Thank you John!',
+      'Working with Wu has been a pleasure. Better yet - I alerted them a critical issues that was annoying me for years. Suprisingly the issue was fixed the next morning. I couldn`t ask for better support. Thank you Wu!',
   },
   // {
   //   id: 'satechi',
@@ -117,7 +117,7 @@ export const PORTFOLIO = [
   //   clientPosition: 'CEO Astro Production, Miami, FL',
   //   clientImg: '/assets/images/author-image.jpg',
   //   testimonial:
-  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  //     'Working with Wu Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
   // },
   // {
   //   id: 'logitech',
@@ -147,7 +147,7 @@ export const PORTFOLIO = [
   //   clientPosition: 'CEO Astro Production, Miami, FL',
   //   clientImg: '/assets/images/author-image.jpg',
   //   testimonial:
-  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  //     'Working with Wu Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
   // },
   // {
   //   id: 'soborna',
@@ -177,6 +177,6 @@ export const PORTFOLIO = [
   //   clientPosition: 'CEO Astro Production, Miami, FL',
   //   clientImg: '/assets/images/author-image.jpg',
   //   testimonial:
-  //     'Working with John Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
+  //     'Working with Wu Doe has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn`t ask for better support. Thank you Artur! This is easily a 5 star freelancer.',
   // },
 ];

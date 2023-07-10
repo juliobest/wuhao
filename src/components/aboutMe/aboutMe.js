@@ -5,7 +5,7 @@ import { EMPLOYMENT_HISTORY } from '../../mockData/employmentHistory';
 import { ABOUT_ME_SECTION } from '../../mockData/sectionHeadings';
 import EducationItem from './educationItem';
 import EmploymentItem from './employmentItem';
-import ContactInfo from './contactInfo';
+// import ContactInfo from './contactInfo';
 
 export default function AboutMe() {
   return (
@@ -14,10 +14,10 @@ export default function AboutMe() {
         <div className='section-heading'>
           <h2>{ABOUT_ME_SECTION.title}</h2>
 
-          <ContactInfo />
+          {/* <ContactInfo /> */}
 
           <span>{ABOUT_ME_SECTION.description}</span>
-          <a href="/resume.pdf" target="_blank"> Download Resume </a>
+          {/* <a href="/resume.pdf" target="_blank"> Download Resume </a> */}
         </div>
 
         <div className='right-image-post'>

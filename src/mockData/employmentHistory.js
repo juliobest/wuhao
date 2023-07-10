@@ -14,11 +14,11 @@ export const EMPLOYMENT_HISTORY = [
   },
   {
     id: 1,
-    company: 'SoftwareSkinwork',
+    company: 'WuHaoSoftwareLLC',
     position: 'Senior Software Engineer',
     period: '2012-2019',
     description:
-      'SoftwareSkinwork is a great IT company involves many software experts and teams. Real professionals and good people. I had been working at SoftwareSkinwork as a senior developer, and managed several large projects from scratch.',
+      'WuHaoSoftwareLLC is a great IT company involves many software experts and teams. Real professionals and good people. I had been working at WuHaoSoftwareLLC as a senior developer, and managed several large projects from scratch.',
     responsibilities: [
       'System Design, Architecture Design, Database Design, UI/UX design',
       'Tech Leader, Primary Developer, Project Manager',

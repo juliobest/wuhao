@@ -8,7 +8,7 @@ export const EDUCATION = [
   // },
   {
     id: 2,
-    title: 'Nagoya Institute of Technology',
+    title: 'Wuhan Institutet of Technology',
     period: '2008-2012',
     description:
       `Specialized in Computer Science and received Master's degree of Computer Science`,
